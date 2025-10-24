@@ -14,5 +14,5 @@ jobs:
     # Étape 2 : exécuter des commandes pour vérifier le contenu
       - name: Vérification du contenu
         run: | # Le symbole "|" permet d’écrire plusieurs lignes de commande
-        echo "Félicitations, Pipeline CI déclenché avec réussite" # Affiche un message dans la console
-        ls -l # Liste les fichiers présents dans le répertoire du dépôt
+          echo "Félicitations, Pipeline CI déclenché avec réussite" # Affiche un message dans la console
+          ls -l # Liste les fichiers présents dans le répertoire du dépôt
